@@ -63,6 +63,7 @@
   .catalogo {
     padding: 20px;
     text-align: center;
+    
   }
   
   .filtros {
@@ -91,22 +92,27 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    
   }
   
   .paginacion button {
     padding: 10px 20px;
     border: none;
-    background-color: #007bff;
+    background-color: #121212;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .paginacion button:hover {
-    background-color: #0056b3;
+    background-color: gray;
   }
-  
+  .card img {
+    width: 180px; /* Ajusta el ancho */
+    height: auto; /* Mantiene la proporción */
+    object-fit: cover; /* Opcional: ajusta cómo se muestra la imagen */
+  }
   /* Footer */
   .footer {
     background-color: #121212;

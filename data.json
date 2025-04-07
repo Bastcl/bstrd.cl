@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "nombre": "Polera Hellfish",
+    "descripcion": "Polera de algodón 100% con diseño exclusivo.",
+    "precio": "$15.990",
+    "categoria": "Poleras",
+    "imagen": "./assets/productos/polera_hellfish.webp"
+  },
+  {
+    "id": 2,
+    "nombre": "Poleron Homero",
+    "descripcion": "Poleron de algodón con estampado DTF.",
+    "precio": "$28.990",
+    "categoria": "Polerones",
+    "imagen": "./assets/productos/poleron_homero.webp"
+  },
+  {
+    "id": 3,
+    "nombre": "Polera Marge",
+    "descripcion": "Polera de algodón 100% con diseño exclusivo.",
+    "precio": "$15.990",
+    "categoria": "Poleras",
+    "imagen": "./assets/productos/polera_marge.webp"
+  },
+  {
+    "id": 4,
+    "nombre": "Poleron Dexter",
+    "descripcion": "Poleron de algodón con estampado DTF.",
+    "precio": "$28.990",
+    "categoria": "Polerones",
+    "imagen": "./assets/productos/poleron_dexter.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Camiseta MLS Phillies",
+    "descripcion": "Camiseta MLS con diseño exclusivo.",
+    "precio": "$23.990",
+    "categoria": "Camisetas",
+    "imagen": "./assets/productos/camisa_phillies.webp"
+  },
+  {
+    "id": 6,
+    "nombre": "Bannie Anxiety",
+    "descripcion": "Bannie de lana estampado.",
+    "precio": "$12.990",
+    "categoria": "Bannies",
+    "imagen": "./assets/productos/bannie_anx.webp"
+  },
+  {
+    "id": 7,
+    "nombre": "Camiseta MLS Giants",
+    "descripcion": "Camiseta MLS con diseño exclusivo.",
+    "precio": "$23.990",
+    "categoria": "Camisetas",
+    "imagen": "./assets/productos/camisa_giants.webp"
+  },
+  {
+    "id": 8,
+    "nombre": "Snapback Trasher",
+    "descripcion": "Snapback con diseño exclusivo.",
+    "precio": "$14.990",
+    "categoria": "Gorras",
+    "imagen": "./assets/productos/snapback_trasher.webp"
+  }
+]

@@ -1,1 +1,66 @@
-<h1>BSTRD</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página web con catálogo de artículos, filtros y diseño responsivo.">
+  <meta name="keywords" content="catálogo, artículos, filtro, responsive">
+  <meta name="author" content="Tu Nombre">
+  <title>BSTRD Chile</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=105820&format=png&color=000000" type="image/x-icon">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="https://via.placeholder.com/50" alt="Logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- Catálogo -->
+  <section id="catalogo" class="catalogo">
+    <div class="filtros">
+      <button class="filtro-btn">Filtrar por Categoría</button>
+      <input type="text" placeholder="Buscar por nombre..." class="buscador">
+    </div>
+    <div class="articulos-container">
+      <!-- Artículos generados dinámicamente -->
+    </div>
+    <div class="paginacion">
+      <button class="btn-anterior">Anterior</button>
+      <button class="btn-siguiente">Siguiente</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="info-contacto">
+      <p>Contacto: ejemplo@correo.com | Teléfono: +123456789</p>
+    </div>
+    <div class="redes-sociales">
+      <a href="#"><img src="https://via.placeholder.com/30" alt="Facebook"></a>
+      <a href="#"><img src="https://via.placeholder.com/30" alt="Instagram"></a>
+      <a href="#"><img src="https://via.placeholder.com/30" alt="Twitter"></a>
+    </div>
+    <div class="politicas">
+      <p>&copy; 2025 Todos los derechos reservados by <span><a href="https://www.instagram.com/bastdiseno.cl" target="_blank">BAST&trade;</a></span> </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

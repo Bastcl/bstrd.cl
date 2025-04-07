@@ -1,0 +1,159 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #121212;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo img {
+    height: 40px;
+  }
+  
+  .navbar .menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar .menu ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .menu ul li a:hover {
+    color: #007bff;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+  }
+  
+  /* Catálogo */
+  .catalogo {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .filtros {
+    margin-bottom: 20px;
+  }
+  
+  .filtro-btn,
+  .buscador {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buscador {
+    width: 200px;
+  }
+  
+  .articulos-container {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .paginacion {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .paginacion button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .paginacion button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  .footer .info-contacto,
+  .footer .politicas {
+    margin-bottom: 10px;
+  }
+  
+  .footer .redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer .redes-sociales img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Diseño Responsivo */
+  @media (max-width: 768px) {
+    .navbar .menu {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: flex;
+    }
+  
+    .articulos-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .articulos-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1025px) {
+    .articulos-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }

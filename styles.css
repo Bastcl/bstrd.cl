@@ -10,8 +10,7 @@ body {
   line-height: 1.6;
   background-color: #f9f9f9;
   color: #121212;
-  text-align: start;
-  align-items: start;
+  
 }
 
 /* Navbar */
@@ -121,6 +120,13 @@ body {
   background-color: white;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease;  
 }
 
 .card img {
